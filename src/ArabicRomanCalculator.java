@@ -9,7 +9,7 @@ public class ArabicRomanCalculator {
     static int arabicresult; // результат в арабских цифрах
     public static void main(String[] args)
     {
-        System.out.println("Введите два числа от 1 до 10 в виде двух арабских (1...9) или римских (I...X) символов, знак алгебраической операции между ними, и нажмите Enter ");
+        System.out.println("Введите два числа от 1 до 10 в виде двух арабских (1...9) или римских (I...X) символов со знаком алгебраической операции между ними, и нажмите Enter ");
 
         String input = scanner.nextLine();
         String[] parts = input.split(" ");
