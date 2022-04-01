@@ -34,7 +34,7 @@ public class ArabicRomanCalculator {
             a =  roman.romanToNumber(parts[0]);
             b = roman.romanToNumber(parts[2]);
             if (!processing.ifNubersWithinInterval(a,b))
-            {throw new InputMismatchException("Недопустимый диапазон вводных значений");}
+            {throw new InputMismatchException("Недопустимый диапазон вводимых значений");}
 
 
 
@@ -63,7 +63,7 @@ public class ArabicRomanCalculator {
             }
             if (!processing.ifNubersWithinInterval(a,b))
             {
-                throw new InputMismatchException("Недопустимый диапазон вводных значений");
+                throw new InputMismatchException("Недопустимый диапазон вводимых значений");
             }
             arabicresult = processing.calculation(a, b, parts[1]);
             System.out.println(arabicresult);
