@@ -22,7 +22,7 @@ public class ArithmeticalProcessing
     //Метод для проверки на приемлемый диапазон значений
     public boolean ifNubersWithinInterval (int a, int b)
     {
-        return a<10&&a>=1&&b<10&&b>=1;
+        return a<=10&&a>=1&&b<=10&&b>=1;
     }
 
 
