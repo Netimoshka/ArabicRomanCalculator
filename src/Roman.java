@@ -55,7 +55,7 @@ public class Roman {
     public boolean ifcontainsroman (String symbol)
     {
         List<String> romanlist = new ArrayList<>();
-        for (int a=0; a<10; a++)
+        for (int a=0; a<100; a++)
         {
             romanlist.add(romanarray[a]);
         }
